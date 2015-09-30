@@ -1,0 +1,7 @@
+@font-face {
+    font-family: myFont;
+    src: url(transformers_movie.ttf);
+}
+body{
+	font-family:myFont;
+}
