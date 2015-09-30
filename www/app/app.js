@@ -17,3 +17,25 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
+console.log('config')
+$stateProvider
+
+//removed masterpage because it prefix all url by /app/
+//abstract route or parent or as per asp masterpage
+/*.state('app', {
+url: '/app',
+abstract: true,
+templateUrl: 'app/master.html',
+controller: 'AppCtrl'
+})*/
+
+
+
+
+// if none of the above states are matched, use this as the fallback
+// removed app because there is no abstract route
+// below is the default route. basically / will be the defalt
+$urlRouterProvider.otherwise('/login');
+//$locationProvider.html5Mode(true);
+})
