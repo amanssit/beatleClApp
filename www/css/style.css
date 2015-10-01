@@ -6,9 +6,9 @@ body{
 	font-family:myFont;
 }
 .loginform{
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-top: 25%;
+	margin-left: 18%;
+	margin-right: 18%;
 
 
 }
@@ -18,8 +18,7 @@ body{
 }
 
 .textbox{
-	margin: 4px;
-	
+margin-top: 8px;
 	width: 100%;
 	padding: 20px;
 	padding-top: 10px;
@@ -37,6 +36,7 @@ body{
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 2%;
+	width: 79%;
 }
 .imglogo{
 	margin-left: 10%;
@@ -48,4 +48,13 @@ body{
 {
 	background-color: #1bc3f4;
 	color: #ffffff;
+}
+.mycontent{
+	margin-top: 45px;
+	margin-left: 10px;
+}
+.myfooter
+{
+	background-color: #d4d4d4;
+	color: #c74747;
 }

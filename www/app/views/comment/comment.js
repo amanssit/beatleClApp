@@ -5,7 +5,7 @@
     $stateProvider
       .state('comment', {
         url: '/comment',
-
+        
             templateUrl: 'app/views/comment/comment.html',
             controller: 'CommentCtrl'
 
